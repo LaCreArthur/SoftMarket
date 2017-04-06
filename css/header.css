@@ -1,0 +1,100 @@
+.header-top {
+    float: left;
+    height: 31px;
+    width: 100%;
+    padding: 0;
+    margin: 13px 0 -1px;
+    font-size: 12px;
+}
+
+.navbar {
+    padding : 8px 16px 0 16px !important;
+}
+
+#header-info p > a , #header-menu a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: #419cdf;
+}
+#header-info p > a:hover {
+    color: #202020;
+}
+#header-info a, #header-info span, #header-menu a {
+    font-weight: 700;
+}
+
+#header-menu {
+    margin: -32px 0px 0px 388px;
+}
+
+#header-menu a > span  {
+    font-weight: normal;
+}
+.dropdown-toggle {
+    float: right;
+    color : #737373;
+    padding: 0 11px 0 9px;
+    margin: 0 3px 0 0;
+
+}
+#cart, #account {
+    margin: 0 -17px 0 0;
+    float: right;
+}
+#cart {
+    border-left: 1px solid #e8e8e8;
+    margin: 0 -34px 0 14px;
+    padding: 0 0 0 10px;
+}
+
+.navbar-header {
+    float: left;
+}
+
+header ul {
+    padding: 0;
+    margin: 0 -70px 0 0;
+    width: 680px;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    color: #505050;
+    font-size: 14px;
+    padding: 6px 12px 54px 20px !important;
+}
+
+header .search-input-content {
+    margin: -5px -44px 0 0;
+}
+
+header .search {
+    background-position: 203px;
+}
+
+header .search-input-content input {
+    height: 40px;
+    width: 230px;
+    border: 1px solid #e8e8e8;
+    color: #505050;
+}
+#nav-menu {
+    padding: 11px 34px 0 0;
+}
+
+#header-separator {
+    border-top: 1px solid #dddddd;
+    float: left;
+    width: 100%;
+    margin: -1px 0 0 0;
+}
+
+.search {
+    background:white url("../ressources/search.png") right center no-repeat;
+    border: 1px solid #c7c7c7;
+    height: 2em;
+    width: 14em;
+}

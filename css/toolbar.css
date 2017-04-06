@@ -1,0 +1,94 @@
+article {
+    width: 880px;
+    float: left;
+    -webkit-flex: 0 0 74% !important;
+    -ms-flex: 0 0 74% !important;
+    flex: 0 0 74% !important;
+    max-width: 74% !important;
+    padding: 0 15px 0 19px !important;
+}
+
+.toolbar {
+    position: relative;
+    margin: 1px 0px 38px -2px !important;
+    padding: 14px 20px 15px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #505050;
+    font-size: 12px;
+}
+
+.toolbar select {
+    color: #505050;
+}
+
+.toolbar-switch {
+    border: 1px solid #d1d1d1;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    min-width: 80px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 0;
+    text-align: left;
+    position: relative;
+}
+
+.show {
+    padding: 0 0 0 7px;
+}
+
+.sortby {
+    padding: 0 0 0 2px;
+}
+
+.v-middle {
+    padding: 0 0 0 7px;
+}
+
+.amount {
+    float: left;
+    margin: 7px 10px 0 -14px;
+}
+
+.toolbar-sorter {
+    margin: 0 -25px 0px 25px;
+}
+
+.pages {
+    margin : -40px 0 60px !important;
+    text-align: center;
+    border: 0px !important;
+}
+
+.pages li {
+    float: left;
+    margin: 0 10px 5px 0;
+    text-align: center;
+    font: normal 12px/1.35 Arial,Helvetica,sans-serif;
+    line-height: 13px;
+    padding: 6px 10px;
+    border: 1px solid #d4d4d4;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+}
+
+.pages li:hover, .pages .current {
+    color: #fff;
+    background-color: #419cdf;
+    border: 1px solid #419cdf;
+}
+
+.pages li:hover, .pages li:hover a {
+    color: #fff;
+    cursor: pointer;
+}
+
+.pages .current {
+    padding: 6px 9px;
+}
+
+.next {
+
+}

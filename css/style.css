@@ -1,0 +1,32 @@
+body {
+    font: normal 0.9em/1.35 Arial,Helvetica,sans-serif;
+}
+
+.container {
+    width: 1200px !important;
+    padding: 0;
+}
+
+#main-container {
+}
+
+a {
+    color: #505050;
+}
+
+a, a:hover {
+    -webkit-transition: all 400ms ease;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    font-size: 29px;
+    padding: 2px 0px 2px 12px;
+    margin: 0 0 -5px 0;
+}
+p {
+    color: #505050;
+}
