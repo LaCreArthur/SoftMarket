@@ -60,7 +60,7 @@
 }
 
 .price-crossed {
-    color: #505050;
+    color: #757575;
     text-decoration: line-through;
 }
 
@@ -71,4 +71,40 @@
     margin: -7px 0px 0px 5px;
 }
 
+.imgButton {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
 
+.modal-content {
+    width: 630px;
+}
+
+.modal-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}

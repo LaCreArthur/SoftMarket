@@ -1,19 +1,4 @@
     </div>
-        <div class="row pages toolbar">
-            <div class="col-md-6 offset-6">
-                <ol>
-                    <li class="current">1</li>
-                    <li><a href="">2</a></li>
-                    <li><a href="">3</a></li>
-                    <li>
-                        <a class="next" href="" title="Next">
-                            <span>Next page</span>
-                        </a>
-                    </li>
-                </ol>
-            </div>
-        </div>
-    
         <div class="row" style="padding: 0 13px 40px 16px;">
             <div class="col-xs-6 col-md-3">
                 <a href="#" class="thumbnail">
@@ -83,16 +68,5 @@
         integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
         crossorigin="anonymous"></script>
 <script src="../js/bootstrap.min.js"></script>
-<script>
-    $(document).ready(function() {
-        // show the collapsible element
-        $("#collapseSubCat").collapse("show");
-        $("#collapseCat").collapse("show");
-        $("#collapsePrice").collapse("show");
-        $("#colorMenu").collapse("show");
-        $("#brand").collapse("show");
-    });
-</script>
-
 </body>
-</html>
+</html>>

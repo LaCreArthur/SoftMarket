@@ -1,19 +1,21 @@
-<?php require 'db.class.php';
-$DB = new DB();
+<?php 
+require 'init.php';
  ?>
 <!doctype html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Projet Web : SoftMarket</title>
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/jquery-ui.min.css">
-    <link rel="stylesheet" href="../css/menu.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/toolbar.css">
-    <link rel="stylesheet" href="../css/article.css">
-    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" href="../css/jquery-ui.min.css"/>
+    <link rel="stylesheet" href="../css/menu.css"/>
+    <link rel="stylesheet" href="../css/header.css"/>
+    <link rel="stylesheet" href="../css/toolbar.css"/>
+    <link rel="stylesheet" href="../css/article.css"/>
+    <link rel="stylesheet" href="../css/footer.css"/>
+    <link rel="stylesheet" href="../css/cart.css"/>
+    <link rel="stylesheet" href="../css/animate.css"/>
     <script src="../js/jquery-3.1.1.min.js"></script>
     <script src="../js/jquery-ui.min.js"></script>
     <script src="../js/app.js"></script>
@@ -28,7 +30,7 @@ $DB = new DB();
             </div>
             <div id="header-menu" class="col-md-8">
                 <div id="cart">
-                    <a href="#">My Cart <span>(2)</span></a>
+                    <a href="cart.php">My Cart <span>(<span id="count"><?= $panier->count()?></span>)</span></a>
                     <p class="dropdown-toggle" style="padding-left: 12px;"></p><span class="caret"></span> <!-- le caret est plus loin que l'autre -->
                 </div>
                 <div id="account">
@@ -41,13 +43,13 @@ $DB = new DB();
         <nav class="navbar navbar-left">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#"><img src="../ressources/logo.png"></a>
+                    <a class="navbar-brand" href="index.php"><img src="../ressources/logo.png"></a>
                 </div>
                 <div id="nav-menu" class="nav nav-pills float-right">
                     <ul>
                         <li class="nav-item"><a class="nav-link" href="#">OFFICE</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">MULTIMEDIA</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">DESIGN</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.php">DESIGN</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">DEVELOPER</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">UTILITIES</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">GAMES</a></li>
@@ -68,10 +70,3 @@ $DB = new DB();
                 <span>/ </span>
             </li>
             <li class="category">
-                <a href="#">Design</a>
-            </li>
-        </ul>
-        <h2>Design</h2>
-    </div>
-    <section id="content">
-        <div class="row" style="height: 832px;">
