@@ -9,8 +9,8 @@ The instructions were to integrate a web design image (. JPG) onto html/css file
 ## Article page
 
 ![alt=screenshot1](https://github.com/LaCreArthur/SoftMarket/blob/master/2018-02-08.png)
-
+----
 ## Basket page
 
 ![alt=screenshot1](https://github.com/LaCreArthur/SoftMarket/blob/master/2018-02-08%20(1).png)
-
+----
